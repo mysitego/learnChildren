@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Embedded Game</title>
+    <style>
+        body {
+            font-family: 'Tajawal', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            background-color: #fadff1; /* Background color */
+        }
+        iframe {
+            width: 90%; /* Adjust iframe width */
+            height: 100vh; /* Adjust iframe height */
+            border: none;
+            margin-top: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Add shadow for better visibility */
+        }
+        .button-container {
+            margin-top: 20px;
+        }
+        button {
+            background-color: #D42364;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.2em;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #E4E48F;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    
+    <h1>  الملف الشخصي للمصممة </h1>
+    <iframe
+    src="https://www.figma.com/proto/zxvjOPxQD8xhRzWjJCmR1h/%D8%B4%D9%88%D9%82?node-id=3-91&starting-point-node-id=1%3A2"
+    title="Game"
+    style="width: 100%; height: 100vh; border: none;"
+    allowfullscreen>
+    </iframe>
+    <div class="button-container">
+        <button onclick="goHome()"> الرجوع الى الصفحة الرئيسية </button>
+    </div>
+
+    <script>
+        function goHome() {
+            window.location.href = 'hom.html'; // Replace with the correct URL of your home page
+        }
+    </script>
+</body>
+</html>
